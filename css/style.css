@@ -152,7 +152,7 @@ body {
 .Available-tag {
   position: absolute;
   top: 10px;
-  left: 550px;
+  left: 450px;
   background:#4a4bc4;
   color: white;
   font-size: 14px;
@@ -219,7 +219,7 @@ body {
 .Rented-tag {
   position: absolute;
   top: 10px;
-  left: 550px;
+  left: 450px;
   background: red;
   color: white;
   font-size: 14px;
@@ -230,7 +230,7 @@ body {
 .processing-tag {
   position: absolute;
   top: 10px;
-  left: 500px;
+  left: 450px;
   background: yellowgreen;
   color: white;
   font-size: 14px;
