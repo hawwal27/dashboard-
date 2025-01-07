@@ -152,7 +152,7 @@ body {
 .Available-tag {
   position: absolute;
   top: 10px;
-  left: 450px;
+  left: 550px;
   background:#4a4bc4;
   color: white;
   font-size: 14px;
@@ -219,7 +219,7 @@ body {
 .Rented-tag {
   position: absolute;
   top: 10px;
-  left: 450px;
+  left: 550px;
   background: red;
   color: white;
   font-size: 14px;
@@ -230,11 +230,46 @@ body {
 .processing-tag {
   position: absolute;
   top: 10px;
-  left: 450px;
+  left: 550px;
   background: yellowgreen;
   color: white;
   font-size: 14px;
   padding: 7px 12px;
   border-radius: 20px;
   font-weight: bold;
+}
+@media(max-width: 700px){
+  .processing-tag {
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    background: yellowgreen;
+    color: white;
+    font-size: 14px;
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  .Rented-tag {
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    background: red;
+    color: white;
+    font-size: 14px;
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  .Available-tag {
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    background:#4a4bc4;
+    color: white;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
 }
