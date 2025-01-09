@@ -18,13 +18,16 @@
   }
   
   .sidebar {
-    width: 250px;
+    width: 300px;
     background-color: #4a4bc4;
     color: white;
     display: flex;
     flex-direction: column;
     padding: 20px;
-    min-height: 127vh;     
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100vh;     
   }
   
   .sidebar .logo {
