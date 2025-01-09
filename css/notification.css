@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+  /* https://youtu.be/PWsDWYTOW2U?si=N6zRNTQeDzWMcB-R */
   body {
     font-family: 'Arial', sans-serif;
     display: flex;
@@ -32,15 +32,12 @@
     font-weight: bold;
     margin-bottom: 30px;
   }
-  
-  .sidebar nav ul {
+    .sidebar nav ul {
     list-style: none;
   }
-  
   .sidebar nav ul li {
     margin: 10px 0;
   }
-  
   .sidebar nav ul li a {
     text-decoration: none;
     color: #ddd;

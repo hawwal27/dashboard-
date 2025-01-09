@@ -27,7 +27,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   padding: 20px;
-  position: relative;
+  position: sticky;
   /* padding-bottom: 30px; */
 
 }
